@@ -1,0 +1,11 @@
+skillmea in ownr view login, all corse, filter, transaction, my progress profil --user
+add, delete, edite, look buy name user --admin
+creater write name bottom of the video
+menu of contend tu look and download
+
+Skillmea. Online vyucovaci nastroj, kurzy:
+admin pridava a edituje, uzivatel si ho moze zakupit a
+dostat sa do neho, moze pridavat komentare ku kurzu a
+hodnotit.
+Do obsahu sa uzivatel dostane iba do kurzov,
+kotre ma zakupene.

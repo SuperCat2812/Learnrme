@@ -1,0 +1,12 @@
+[
+  {
+    "id":1,
+    "name": "Frontend",
+    "title": "Frontend",
+    "filter": "frontend",
+    "main_avatar":"",
+    "files": ["HTML", "CSS", "JS"],
+    "episodes-url": [""]
+
+  }
+]
