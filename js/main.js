@@ -23,7 +23,7 @@ login_form.addEventListener('submit', async (e) => {
             return;
         }
         localStorage.setItem('name', user.username || username);
-        window.location.href = '../main/index.html';
+        window.location.href = './main/index.html';
     } catch (error) {
         console.error('Error fetching user data:', error);
         return;
