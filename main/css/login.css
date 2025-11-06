@@ -1,0 +1,20 @@
+html, body {
+  background-image: linear-gradient(to bottom, #ffb75a 10%, #EF7722, #EBEBEB);
+  min-height: 100vh;
+}
+
+*{
+    margin-top: 10px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.login-form{
+    text-align: center;
+}
+
+h1, h2, .courgette-regular {
+  font-family: "Courgette";
+  text-align: center;
+  font-size: x-large;
+}
