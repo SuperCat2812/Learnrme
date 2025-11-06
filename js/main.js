@@ -11,7 +11,7 @@ login_form.addEventListener('submit', async (e) => {
     let password = document.querySelector('.password-input').value.trim();
 
     try {
-        const users = await readJson('./bd/users.json');
+        const users = await readJson('../bd/users.json');
         const L = username.toLowerCase();
         const user = (Array.isArray(users) ? users : []).find(u =>
             (String(u?.username || '').toLowerCase() === L ||
@@ -23,7 +23,7 @@ login_form.addEventListener('submit', async (e) => {
             return;
         }
         localStorage.setItem('name', user.username || username);
-        window.location.href = './main/index.html';
+        window.location.href = '../main/index.html';
     } catch (error) {
         console.error('Error fetching user data:', error);
         return;
